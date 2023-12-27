@@ -11,8 +11,14 @@
 
 # VLSM
 ## Tree VLSM
+![All](https://github.com/Osvaldo-Kurniawan/Jarkom-Modul-4-Susulan-2023/assets/125529445/fed69413-e7aa-466f-9be3-3c5262759b6b)
+
 ## Pembagian IP VLSM
+![image](https://github.com/Osvaldo-Kurniawan/Jarkom-Modul-4-Susulan-2023/assets/125529445/09e5e61c-4486-4870-934a-34abab2c4282)
+
 ## Config Network
+Pada config ini akan diberikan ip address yang disesuaikan dengan subnet masing-masing interface. Juga dilakukan konfigurasi iptables dan nameserver agar node dapat mengakses internet.
+
 ### Aura
 ```
 auto eth0
@@ -437,6 +443,7 @@ up echo nameserver 192.168.122.1 > /etc/resolv.conf
 ```
 
 ## Routing
+Routing dilakukan pada router-router yang ada. Rute yang ditambahkan adalah rute subnet yang melewati router tersebut namun tidak terhubung secara langsung. Oleh karena itulah router yang terletak pada ujung topologi tidak dilakukan routing.
 
 ### Aura
 ```sh
