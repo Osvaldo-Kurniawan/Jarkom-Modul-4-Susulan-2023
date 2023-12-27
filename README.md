@@ -12,10 +12,6 @@
 
 # CIDR
 
-## Rute
-
-<br>![6](./images/6.jpg)</br>
-
 ## Penggabungan IP untuk menemukan netmask tertinggi:
 
 <img width="873" alt="image" src="https://github.com/Osvaldo-Kurniawan/Jarkom-Modul-4-Susulan-2023/assets/108170210/2c899f22-38e1-425a-854b-c37f5b255fe8">
